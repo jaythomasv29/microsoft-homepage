@@ -134,7 +134,7 @@ a {
 .showcase h2, .showcase p {
   margin-bottom: 10px;
   color: #fff;
-  text-shadow: 1px 1px #000;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.445);
 }
 
 .showcase .btn {
@@ -254,3 +254,16 @@ a {
 }
 
 
+@media(max-width: 800px) {
+  .home-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .bottom-nav .bottom-menu {
+    grid-template-columns: 1fr;
+  }
+
+  .bottom-nav .bottom-menu ul {
+    margin-bottom: 20px;
+  }
+}
